@@ -1,0 +1,175 @@
+body {
+    background-color: #fbfbfb;
+}
+
+@media (min-width: 991.98px) {
+    main {
+        padding-left: 240px;
+    }
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 58px 0 0;
+    /* Height of navbar */
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    width: 240px;
+    z-index: 600;
+}
+
+@media (max-width: 991.98px) {
+    .sidebar {
+        width: 100%;
+    }
+}
+
+.sidebar .active {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* Scrollable contents if viewport is shorter than content. */
+}
+
+.lock {
+    background-color: green;
+    color: white;
+}
+
+.unlock {
+    background-color: red;
+    color: white;
+}
+
+.edit_salon {
+    border: 1px solid grey;
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin: 30px 30px;
+    padding-top: 15px;
+    box-shadow: 7px 10px 5px 0px rgba(0, 0, 0, 0.37);
+    -webkit-box-shadow: 7px 10px 5px 0px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: 7px 10px 5px 0px rgba(0, 0, 0, 0.37);
+    margin-bottom: 30px;
+
+}
+
+.edit_salon .edit_salon_form input {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    border-radius: none;
+    width: 250px;
+}
+
+.edit_salon .edit_salon_form .salon_save {
+    width: 120px;
+    height: 30px;
+    margin: 20px;
+}
+
+.edit_service {
+    border: 1px solid grey;
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin: 30px 30px;
+    padding-top: 15px;
+    box-shadow: 7px 10px 5px 0px rgba(0, 0, 0, 0.37);
+    -webkit-box-shadow: 7px 10px 5px 0px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: 7px 10px 5px 0px rgba(0, 0, 0, 0.37);
+    margin-bottom: 30px;
+
+}
+
+.edit_service .edit_service_form input {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    border-radius: none;
+    width: 250px;
+}
+
+.edit_service .edit_service_form .service_save {
+    width: 120px;
+    height: 30px;
+    margin: 20px;
+}
+
+.edit_customer {
+    border: 1px solid grey;
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin: 30px 30px;
+    padding-top: 15px;
+    box-shadow: 7px 10px 5px 0px rgba(0, 0, 0, 0.37);
+    -webkit-box-shadow: 7px 10px 5px 0px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: 7px 10px 5px 0px rgba(0, 0, 0, 0.37);
+    margin-bottom: 30px;
+
+}
+
+.edit_customer .edit_customer_form input {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    border-radius: none;
+    width: 250px;
+}
+
+.edit_customer .edit_customer_form .save {
+    width: 120px;
+    height: 30px;
+    margin: 20px;
+}
+
+
+table {
+    width: 800px;
+    border-collapse: collapse;
+    margin: 30px 30px;
+    box-shadow: 7px 10px 5px 0px rgba(0, 0, 0, 0.37);
+    -webkit-box-shadow: 7px 10px 5px 0px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: 7px 10px 5px 0px rgba(0, 0, 0, 0.37);
+    margin-bottom: 30px;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
